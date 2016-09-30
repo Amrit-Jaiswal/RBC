@@ -7,7 +7,7 @@ import java.util.Map;
 
 import org.junit.Test;
 
-import com.example.rbc.CostCalculationImpl;
+import com.example.service.CostCalculationImpl;
 
 public class CostCalculationTestCase {
 	
