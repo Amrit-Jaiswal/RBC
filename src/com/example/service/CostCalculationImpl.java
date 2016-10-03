@@ -39,6 +39,8 @@ public class CostCalculationImpl implements CostCalculation{
 						case "Peaches":
 							itemPrice = price.getPeachePrice();
 							break;
+						default:
+							itemPrice = 0;
 					}
 					if(basket.get(key) <= 0){
 						itemPrice=0;
