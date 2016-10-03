@@ -11,7 +11,7 @@ import com.example.service.CostCalculationImpl;
 
 public class CostCalculationTestCase {
 	
-	public Map<String, Integer> basket = new HashMap<String, Integer>();
+	private Map<String, Integer> basket = new HashMap<String, Integer>();
 	
 	@Test
 	public void testTotalCost(){
