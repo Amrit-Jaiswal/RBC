@@ -15,6 +15,7 @@ public class Price {
 		this.lemonPrice=lemonPrice;
 		this.peachePrice=peachePrice;
 	}
+	
 	public long getBananaPrice() {
 		return bananaPrice;
 	}
